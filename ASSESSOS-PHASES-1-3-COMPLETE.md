@@ -251,3 +251,73 @@ Knowledge: Patterns & insights
 **Status: MVP_STACK_PRODUCTION_READY**
 
 Ready for immediate production deployment.
+
+---
+
+## Phase 4: Architecture Documentation ✓
+
+### Mermaid Diagrams Created
+
+4 diagrams visualizing complete Assessos MVP system:
+
+1. **Scoring Algorithm** (`mermaid-scoring-algorithm.mmd`)
+   - Assessment parsing → response categorization
+   - Technical + culture score calculation
+   - Validation & stage progression logic
+   - Database update → logging → notification
+
+2. **Data Flow Architecture** (`mermaid-data-flow.mmd`)
+   - Raw candidates → OpenRefine cleanup
+   - PostgreSQL import → ChromaDB embeddings
+   - Semantic search capability enabled
+   - n8n workflows → scoring + archival
+
+3. **n8n Workflow Pipeline** (`mermaid-n8n-pipeline.mmd`)
+   - 11-step automation process
+   - Webhook trigger → score calculation
+   - Database update → Obsidian logging
+   - Dashboard real-time update
+
+4. **System Integration Architecture** (`mermaid-integration-architecture.mmd`)
+   - Data Layer: PostgreSQL
+   - Processing: n8n + ChromaDB
+   - Backend: NestJS API
+   - Frontend: React Dashboard
+   - Archive: Obsidian Vault
+
+### Use Cases
+
+- Developer onboarding documentation
+- Architecture decision records
+- Stakeholder presentations
+- Troubleshooting flowcharts
+- System design reviews
+
+### Rendering
+
+Native support: GitHub, GitLab, Notion, Confluence
+Live editor: https://mermaid.live
+
+---
+
+## Complete Deliverables
+
+**17 files total:**
+- Data cleanup: 3 files
+- Embeddings: 3 files
+- Automation: 4 files
+- PostgreSQL import: 3 files
+- Architecture: 4 diagrams
+
+**Documentation:** Complete end-to-end system architecture
+
+---
+
+## Status: PRODUCTION READY
+
+✓ Phase 1: Data Cleanup
+✓ Phase 2: Embeddings & Search
+✓ Phase 3: Workflow Automation
+✓ Phase 4: Architecture Documentation
+
+All systems tested, documented, ready for deployment.
