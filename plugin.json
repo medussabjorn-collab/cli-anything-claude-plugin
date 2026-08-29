@@ -1,0 +1,143 @@
+{
+  "name": "cli-anything",
+  "displayName": "CLI-Anything Hub",
+  "version": "1.0.0",
+  "description": "80+ Agent-Ready CLIs for any GUI application",
+  "author": {
+    "name": "CLI-Anything Contributors"
+  },
+  "repository": "https://github.com/HKUDS/CLI-Anything",
+  "license": "Apache-2.0",
+  "category": "development",
+  "totalCLIs": 85,
+  "categories": {
+    "3D": [
+      "blender",
+      "freecad",
+      "3mf",
+      "cloudcompare",
+      "meerk40t"
+    ],
+    "AI": [
+      "comfyui",
+      "ollama",
+      "minimax",
+      "suno",
+      "notebooklm",
+      "novita",
+      "generate-veo-video",
+      "jimeng",
+      "magnific"
+    ],
+    "Audio": [
+      "audacity",
+      "wavetone",
+      "elevenlabs"
+    ],
+    "Automation": [
+      "n8n",
+      "eez-studio"
+    ],
+    "Browser": [
+      "browser",
+      "browser-cdp",
+      "clibrowser",
+      "cloakbrowser",
+      "web-yu-pri"
+    ],
+    "Communication": [
+      "feishu",
+      "wecom",
+      "ve-twini",
+      "x-twitter-scraper"
+    ],
+    "Data": [
+      "chromadb",
+      "contentful",
+      "exa",
+      "firefly-iii",
+      "py4csr"
+    ],
+    "Design": [
+      "gimp",
+      "krita",
+      "inkscape",
+      "sketch",
+      "inkstitch"
+    ],
+    "Dev-Tools": [
+      "lldb",
+      "renderdoc",
+      "nsight-graphics",
+      "sentry",
+      "deployhq"
+    ],
+    "Diagramming": [
+      "mermaid",
+      "drawio",
+      "mubu",
+      "siyuan"
+    ],
+    "Document": [
+      "libreoffice",
+      "calibre",
+      "obsidian",
+      "zotero"
+    ],
+    "Gaming": [
+      "godot",
+      "slay_the_spire_ii"
+    ],
+    "GIS": [
+      "qgis",
+      "arcgis-pro"
+    ],
+    "Media": [
+      "kdenlive",
+      "obs-studio",
+      "videocaptioner",
+      "vivideo"
+    ],
+    "Music": [
+      "musescore"
+    ],
+    "Office": [
+      "libreoffice",
+      "calibre",
+      "sanity",
+      "shopify"
+    ],
+    "Productivity": [
+      "obsidian",
+      "obsidian-cli",
+      "obsidian-agent-cli",
+      "joplin",
+      "iterm2"
+    ],
+    "Security": [
+      "1password-cli",
+      "quietshrink",
+      "cc-switch"
+    ],
+    "Statistics": [
+      "stata"
+    ],
+    "Web": [
+      "dify-workflow",
+      "openrefine",
+      "openwebui",
+      "palmier",
+      "seaclip"
+    ],
+    "Miscellaneous": [
+      "anygen",
+      "android-cli",
+      "eth2-quickstart",
+      "hacker-feeds-cli",
+      "nslogger",
+      "pieces",
+      "smithue-cli",
+      "tinyfish"
+    ]
+  }
+}

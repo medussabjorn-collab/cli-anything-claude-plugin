@@ -1,0 +1,689 @@
+{
+  "name": "cli-anything-hub",
+  "displayName": "CLI-Anything Hub - 85+ Agent-Native CLIs",
+  "version": "1.0.0",
+  "description": "Complete CLI-Anything collection for Claude Code integration",
+  "totalCLIs": 85,
+  "skills": [
+    {
+      "id": "cli-anything-1password-cli",
+      "name": "cli-anything-1password-cli",
+      "displayName": "1Password Cli",
+      "description": "CLI interface for 1password-cli",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-3mf",
+      "name": "cli-anything-3mf",
+      "displayName": "3Mf",
+      "description": "CLI interface for 3mf",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-adguardhome",
+      "name": "cli-anything-adguardhome",
+      "displayName": "Adguardhome",
+      "description": "CLI interface for adguardhome",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-android-cli",
+      "name": "cli-anything-android-cli",
+      "displayName": "Android Cli",
+      "description": "CLI interface for android-cli",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-anygen",
+      "name": "cli-anything-anygen",
+      "displayName": "Anygen",
+      "description": "CLI interface for anygen",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-arcgis-pro",
+      "name": "cli-anything-arcgis-pro",
+      "displayName": "Arcgis Pro",
+      "description": "CLI interface for arcgis-pro",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-audacity",
+      "name": "cli-anything-audacity",
+      "displayName": "Audacity",
+      "description": "CLI interface for audacity",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-blender",
+      "name": "cli-anything-blender",
+      "displayName": "Blender",
+      "description": "CLI interface for blender",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-browser",
+      "name": "cli-anything-browser",
+      "displayName": "Browser",
+      "description": "CLI interface for browser",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-browser-cdp",
+      "name": "cli-anything-browser-cdp",
+      "displayName": "Browser Cdp",
+      "description": "CLI interface for browser-cdp",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-calibre",
+      "name": "cli-anything-calibre",
+      "displayName": "Calibre",
+      "description": "CLI interface for calibre",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-cc-switch",
+      "name": "cli-anything-cc-switch",
+      "displayName": "Cc Switch",
+      "description": "CLI interface for cc-switch",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-chromadb",
+      "name": "cli-anything-chromadb",
+      "displayName": "Chromadb",
+      "description": "CLI interface for chromadb",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-clibrowser",
+      "name": "cli-anything-clibrowser",
+      "displayName": "Clibrowser",
+      "description": "CLI interface for clibrowser",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-cloakbrowser",
+      "name": "cli-anything-cloakbrowser",
+      "displayName": "Cloakbrowser",
+      "description": "CLI interface for cloakbrowser",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-cloudanalyzer",
+      "name": "cli-anything-cloudanalyzer",
+      "displayName": "Cloudanalyzer",
+      "description": "CLI interface for cloudanalyzer",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-cloudcompare",
+      "name": "cli-anything-cloudcompare",
+      "displayName": "Cloudcompare",
+      "description": "CLI interface for cloudcompare",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-comfyui",
+      "name": "cli-anything-comfyui",
+      "displayName": "Comfyui",
+      "description": "CLI interface for comfyui",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-contentful",
+      "name": "cli-anything-contentful",
+      "displayName": "Contentful",
+      "description": "CLI interface for contentful",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-deployhq",
+      "name": "cli-anything-deployhq",
+      "displayName": "Deployhq",
+      "description": "CLI interface for deployhq",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-dify-workflow",
+      "name": "cli-anything-dify-workflow",
+      "displayName": "Dify Workflow",
+      "description": "CLI interface for dify-workflow",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-drawio",
+      "name": "cli-anything-drawio",
+      "displayName": "Drawio",
+      "description": "CLI interface for drawio",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-eez-studio",
+      "name": "cli-anything-eez-studio",
+      "displayName": "Eez Studio",
+      "description": "CLI interface for eez-studio",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-elevenlabs",
+      "name": "cli-anything-elevenlabs",
+      "displayName": "Elevenlabs",
+      "description": "CLI interface for elevenlabs",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-eth2-quickstart",
+      "name": "cli-anything-eth2-quickstart",
+      "displayName": "Eth2 Quickstart",
+      "description": "CLI interface for eth2-quickstart",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-exa",
+      "name": "cli-anything-exa",
+      "displayName": "Exa",
+      "description": "CLI interface for exa",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-feishu",
+      "name": "cli-anything-feishu",
+      "displayName": "Feishu",
+      "description": "CLI interface for feishu",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-firefly-iii",
+      "name": "cli-anything-firefly-iii",
+      "displayName": "Firefly Iii",
+      "description": "CLI interface for firefly-iii",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-freecad",
+      "name": "cli-anything-freecad",
+      "displayName": "Freecad",
+      "description": "CLI interface for freecad",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-generate-veo-video",
+      "name": "cli-anything-generate-veo-video",
+      "displayName": "Generate Veo Video",
+      "description": "CLI interface for generate-veo-video",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-gimp",
+      "name": "cli-anything-gimp",
+      "displayName": "Gimp",
+      "description": "CLI interface for gimp",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-godot",
+      "name": "cli-anything-godot",
+      "displayName": "Godot",
+      "description": "CLI interface for godot",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-hacker-feeds-cli",
+      "name": "cli-anything-hacker-feeds-cli",
+      "displayName": "Hacker Feeds Cli",
+      "description": "CLI interface for hacker-feeds-cli",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-inkscape",
+      "name": "cli-anything-inkscape",
+      "displayName": "Inkscape",
+      "description": "CLI interface for inkscape",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-inkstitch",
+      "name": "cli-anything-inkstitch",
+      "displayName": "Inkstitch",
+      "description": "CLI interface for inkstitch",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-iterm2",
+      "name": "cli-anything-iterm2",
+      "displayName": "Iterm2",
+      "description": "CLI interface for iterm2",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-jimeng",
+      "name": "cli-anything-jimeng",
+      "displayName": "Jimeng",
+      "description": "CLI interface for jimeng",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-kdenlive",
+      "name": "cli-anything-kdenlive",
+      "displayName": "Kdenlive",
+      "description": "CLI interface for kdenlive",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-krita",
+      "name": "cli-anything-krita",
+      "displayName": "Krita",
+      "description": "CLI interface for krita",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-libreoffice",
+      "name": "cli-anything-libreoffice",
+      "displayName": "Libreoffice",
+      "description": "CLI interface for libreoffice",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-lldb",
+      "name": "cli-anything-lldb",
+      "displayName": "Lldb",
+      "description": "CLI interface for lldb",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-magnific",
+      "name": "cli-anything-magnific",
+      "displayName": "Magnific",
+      "description": "CLI interface for magnific",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-meerk40t",
+      "name": "cli-anything-meerk40t",
+      "displayName": "Meerk40T",
+      "description": "CLI interface for meerk40t",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-mermaid",
+      "name": "cli-anything-mermaid",
+      "displayName": "Mermaid",
+      "description": "CLI interface for mermaid",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-minimax",
+      "name": "cli-anything-minimax",
+      "displayName": "Minimax",
+      "description": "CLI interface for minimax",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-minimax-cli",
+      "name": "cli-anything-minimax-cli",
+      "displayName": "Minimax Cli",
+      "description": "CLI interface for minimax-cli",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-mubu",
+      "name": "cli-anything-mubu",
+      "displayName": "Mubu",
+      "description": "CLI interface for mubu",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-n8n",
+      "name": "cli-anything-n8n",
+      "displayName": "N8N",
+      "description": "CLI interface for n8n",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-notebooklm",
+      "name": "cli-anything-notebooklm",
+      "displayName": "Notebooklm",
+      "description": "CLI interface for notebooklm",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-novita",
+      "name": "cli-anything-novita",
+      "displayName": "Novita",
+      "description": "CLI interface for novita",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-nsight-graphics",
+      "name": "cli-anything-nsight-graphics",
+      "displayName": "Nsight Graphics",
+      "description": "CLI interface for nsight-graphics",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-nslogger",
+      "name": "cli-anything-nslogger",
+      "displayName": "Nslogger",
+      "description": "CLI interface for nslogger",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-obs-studio",
+      "name": "cli-anything-obs-studio",
+      "displayName": "Obs Studio",
+      "description": "CLI interface for obs-studio",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-obsidian",
+      "name": "cli-anything-obsidian",
+      "displayName": "Obsidian",
+      "description": "CLI interface for obsidian",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-obsidian-agent-cli",
+      "name": "cli-anything-obsidian-agent-cli",
+      "displayName": "Obsidian Agent Cli",
+      "description": "CLI interface for obsidian-agent-cli",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-obsidian-cli",
+      "name": "cli-anything-obsidian-cli",
+      "displayName": "Obsidian Cli",
+      "description": "CLI interface for obsidian-cli",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-ollama",
+      "name": "cli-anything-ollama",
+      "displayName": "Ollama",
+      "description": "CLI interface for ollama",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-openrefine",
+      "name": "cli-anything-openrefine",
+      "displayName": "Openrefine",
+      "description": "CLI interface for openrefine",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-openwebui",
+      "name": "cli-anything-openwebui",
+      "displayName": "Openwebui",
+      "description": "CLI interface for openwebui",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-palmier",
+      "name": "cli-anything-palmier",
+      "displayName": "Palmier",
+      "description": "CLI interface for palmier",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-pieces",
+      "name": "cli-anything-pieces",
+      "displayName": "Pieces",
+      "description": "CLI interface for pieces",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-py4csr",
+      "name": "cli-anything-py4csr",
+      "displayName": "Py4Csr",
+      "description": "CLI interface for py4csr",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-qgis",
+      "name": "cli-anything-qgis",
+      "displayName": "Qgis",
+      "description": "CLI interface for qgis",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-quietshrink",
+      "name": "cli-anything-quietshrink",
+      "displayName": "Quietshrink",
+      "description": "CLI interface for quietshrink",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-renderdoc",
+      "name": "cli-anything-renderdoc",
+      "displayName": "Renderdoc",
+      "description": "CLI interface for renderdoc",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-safari",
+      "name": "cli-anything-safari",
+      "displayName": "Safari",
+      "description": "CLI interface for safari",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-sanity",
+      "name": "cli-anything-sanity",
+      "displayName": "Sanity",
+      "description": "CLI interface for sanity",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-seaclip",
+      "name": "cli-anything-seaclip",
+      "displayName": "Seaclip",
+      "description": "CLI interface for seaclip",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-sentry",
+      "name": "cli-anything-sentry",
+      "displayName": "Sentry",
+      "description": "CLI interface for sentry",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-shopify",
+      "name": "cli-anything-shopify",
+      "displayName": "Shopify",
+      "description": "CLI interface for shopify",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-siyuan",
+      "name": "cli-anything-siyuan",
+      "displayName": "Siyuan",
+      "description": "CLI interface for siyuan",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-sketch",
+      "name": "cli-anything-sketch",
+      "displayName": "Sketch",
+      "description": "CLI interface for sketch",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-slay-the-spire-ii",
+      "name": "cli-anything-slay-the-spire-ii",
+      "displayName": "Slay The Spire Ii",
+      "description": "CLI interface for slay_the_spire_ii",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-smithue-cli",
+      "name": "cli-anything-smithue-cli",
+      "displayName": "Smithue Cli",
+      "description": "CLI interface for smithue-cli",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-stata",
+      "name": "cli-anything-stata",
+      "displayName": "Stata",
+      "description": "CLI interface for stata",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-suno",
+      "name": "cli-anything-suno",
+      "displayName": "Suno",
+      "description": "CLI interface for suno",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-tinyfish",
+      "name": "cli-anything-tinyfish",
+      "displayName": "Tinyfish",
+      "description": "CLI interface for tinyfish",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-ve-twini",
+      "name": "cli-anything-ve-twini",
+      "displayName": "Ve Twini",
+      "description": "CLI interface for ve-twini",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-videocaptioner",
+      "name": "cli-anything-videocaptioner",
+      "displayName": "Videocaptioner",
+      "description": "CLI interface for videocaptioner",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-vivideo",
+      "name": "cli-anything-vivideo",
+      "displayName": "Vivideo",
+      "description": "CLI interface for vivideo",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-wavetone",
+      "name": "cli-anything-wavetone",
+      "displayName": "Wavetone",
+      "description": "CLI interface for wavetone",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-web-yu-pri",
+      "name": "cli-anything-web-yu-pri",
+      "displayName": "Web Yu Pri",
+      "description": "CLI interface for web-yu-pri",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-wecom",
+      "name": "cli-anything-wecom",
+      "displayName": "Wecom",
+      "description": "CLI interface for wecom",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-x-twitter-scraper",
+      "name": "cli-anything-x-twitter-scraper",
+      "displayName": "X Twitter Scraper",
+      "description": "CLI interface for x-twitter-scraper",
+      "enabled": true,
+      "category": "development"
+    },
+    {
+      "id": "cli-anything-zotero",
+      "name": "cli-anything-zotero",
+      "displayName": "Zotero",
+      "description": "CLI interface for zotero",
+      "enabled": true,
+      "category": "development"
+    }
+  ]
+}
