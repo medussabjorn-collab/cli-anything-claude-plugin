@@ -1,0 +1,10 @@
+graph TD
+    A["User Request"] --> B["n8n Parse"]
+    B --> C["Blender 3D"]
+    C --> D["Mermaid Diagram"]
+    D --> E["ComfyUI AI"]
+    E --> F["n8n Compile"]
+    F --> G["Obsidian Vault"]
+    G --> H["Output Package"]
+    G -.->|Search & Retrieve| A
+    style G fill:#f1f8e9
