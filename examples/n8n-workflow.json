@@ -1,0 +1,93 @@
+{
+  "name": "AI Creative Pipeline",
+  "nodes": [
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://localhost:3000/api/create-product",
+        "bodyParametersUi": "keypairs",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "product_name",
+              "value": "={{$json.input.name}}"
+            },
+            {
+              "name": "description",
+              "value": "={{$json.input.description}}"
+            }
+          ]
+        }
+      },
+      "name": "Parse Input",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [250, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://localhost:7860/api/run",
+        "bodyParametersUi": "keypairs",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "scene_file",
+              "value": "={{$node[\"Parse Input\"].json.scene_path}}"
+            }
+          ]
+        }
+      },
+      "name": "Trigger Blender",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [500, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://localhost:8188/api/prompt",
+        "bodyParametersUi": "json",
+        "body": "{{$json.comfyui_workflow}}"
+      },
+      "name": "Trigger ComfyUI",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [750, 300]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://localhost:3000/api/compile-results",
+        "bodyParametersUi": "keypairs",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "name": "model_file",
+              "value": "={{$node[\"Trigger Blender\"].json.output}}"
+            },
+            {
+              "name": "ai_image",
+              "value": "={{$node[\"Trigger ComfyUI\"].json.output}}"
+            }
+          ]
+        }
+      },
+      "name": "Compile Results",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.1,
+      "position": [1000, 300]
+    }
+  ],
+  "connections": {
+    "Parse Input": {
+      "main": [[{"node": "Trigger Blender", "type": "main", "index": 0}]]
+    },
+    "Trigger Blender": {
+      "main": [[{"node": "Trigger ComfyUI", "type": "main", "index": 0}]]
+    },
+    "Trigger ComfyUI": {
+      "main": [[{"node": "Compile Results", "type": "main", "index": 0}]]
+    }
+  }
+}
